@@ -22,7 +22,7 @@ import { TokenData, TokenChartEntry } from './types'
 
 dayjs.extend(utc)
 
-const CAKE_ADDRESS = '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82'
+const CAKE_ADDRESS = '0x818CEE824f8CaEAa05Fb6a1f195935e364D52Af0'
 
 export function useCakePriceUsd(): number | null {
   const cake = useSelector((state: AppState) => state.tokens.byAddress[CAKE_ADDRESS])
