@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client'
 
 export const client = new ApolloClient({
-  uri: 'https://api.studio.thegraph.com/query/4199/scsexchange/v0.0.1',
+  uri: 'https://api.thegraph.com/subgraphs/name/shibcakeswap/shibcakeswap-exchange',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
