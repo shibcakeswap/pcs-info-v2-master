@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client'
 
 export const client = new ApolloClient({
-  uri: 'https://thegraph.com/studio/subgraph/scsexchange',
+  uri: 'https://api.studio.thegraph.com/query/4199/scsexchange/v0.0.1',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
@@ -21,7 +21,7 @@ export const healthClient = new ApolloClient({
 })
 
 export const blockClient = new ApolloClient({
-  uri: 'https://thegraph.com/studio/subgraph/scs-blocks',
+  uri: 'https://api.studio.thegraph.com/query/4199/scs-blocks/v0.0.1',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
