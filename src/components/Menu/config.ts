@@ -39,6 +39,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       text: 'NEW',
       color: 'success',
     },
+  },
   {
     label: t('More'),
     icon: 'MoreIcon',
