@@ -86,7 +86,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading scale="lg" mb="16px">
-        {t('PancakeSwap Info & Analytics')}
+        {t('ShibcakeSwap Info & Analytics')}
       </Heading>
       <ResponsiveRow>
         <Card p={['16px', '16px', '24px']}>
