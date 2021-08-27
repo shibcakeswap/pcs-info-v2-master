@@ -21,7 +21,7 @@ export const healthClient = new ApolloClient({
 })
 
 export const blockClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/shibcakeswap/shibcakeswap-blocks',
+  uri: 'https://api.thegraph.com/subgraphs/name/shibcakeswap/shibcakeswapblocksv1',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
